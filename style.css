@@ -1,6 +1,13 @@
+html, body {
+    height: 100%;
+}
 body {
     background-color: rgb(243, 243, 243);
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 h1#title {
     height: 90%;
@@ -11,7 +18,7 @@ h1#title {
     font-family: "Julius Sans One";
     color: rgb(29, 29, 29);
 }
-h2#subTitle {
+#subTitle {
     margin-top: -50px;
     font-family: "Julius Sans One";
     font-size: 20px;
@@ -37,4 +44,24 @@ a.linkToSite {
     font-size: smaller;
     font-family: "Julius Sans One";
     color: rgb(29, 29, 29);
+    padding-bottom: 100px;
+}
+#textBody {
+  background-color: rgba(231, 231, 231, 0.376);
+  width: 69%;
+  height: 200px;
+  display:flexbox;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 30px;
+}
+h3#internalHeading{
+    font-family: "Julius Sans One";
+    font-size: 20px;
+    color: rgb(29, 29, 29);
+    text-align: center;
 }
