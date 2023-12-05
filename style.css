@@ -31,9 +31,10 @@ img#myFace {
     width: 400px;
     align-items: center;
 }
-a#link2Matt {
+a.linkToSite {
     width: 120px;
     text-align: center;
     font-size: smaller;
     font-family: "Julius Sans One";
+    color: rgb(29, 29, 29);
 }
