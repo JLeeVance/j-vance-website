@@ -1,8 +1,13 @@
-h1 {
+body {
+    background-color: rgb(243, 243, 243);
+}
+h1#title {
     height: 90%;
     text-align: center;
     padding: 5px;
-    font-size: 60px;
+    font-size: 75px;
+    font-weight: 500;
     font-family: "Julius Sans One";
-    color: rgb(93, 93, 93);
+    color: rgb(29, 29, 29);
 }
+
